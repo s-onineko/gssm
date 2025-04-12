@@ -119,6 +119,8 @@ st.write("""
     ## GSSM-会計基礎対策：取引分類クイズ""")
 st.write("""
     ##### 2025.04.12 S.ONIMARU""")
+st.divider()
+
 # 「問題をランダム生成して再チャレンジ」ボタン
 if st.button("問題をランダム生成して再チャレンジ"):
     reset_quiz()
