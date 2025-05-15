@@ -175,6 +175,7 @@ if st.sidebar.button("シミュレーション実行"):
 
     ax.set_xlabel("Skill Level")
     ax.set_ylabel("Number of Students")
+    ax.set_ylim(0, 12)
     ax.legend(frameon=False)
     ax.grid(axis='y')
     st.pyplot(fig)
