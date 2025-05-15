@@ -161,7 +161,7 @@ if st.sidebar.button("シミュレーション実行"):
     final_hist_avg = final_hist_accum / num_trials
 
     # 描画
-    st.write("#### 2｜全試行における最終スキル分布（全学生, Bin=5）")
+    st.write("#### 2｜プログラミング関連授業を通して獲得するスキル分布（Bin=5）")
     fig, ax = plt.subplots()
 
     # 最終スキル（濃い青）
