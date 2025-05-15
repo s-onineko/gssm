@@ -130,7 +130,7 @@ if st.sidebar.button("シミュレーション実行"):
     st.write("#### 1｜クラスの平均スキルレベルの成長曲線")
     fig, ax = plt.subplots()
     ax.plot(range(1, num_sessions + 1), avg_progression, marker='o', color='#4b0082')
-    ax.ylim(0, 80)
+    ax.set_ylim(0, 80)
     ax.set_xlabel("Number of Lessons")
     ax.set_ylabel("Average Skill Level")
     ax.grid(True)
