@@ -10,7 +10,7 @@ st.sidebar.write("##### Created by Shohei ONIMARU(202540062)")
 st.sidebar.write("#### パラメーター設定")
 
 # パラメータ入力
-num_trials = st.sidebar.slider("シミュレーション試行回数", 1, 100, 10)
+num_trials = st.sidebar.slider("シミュレーション試行回数", 1, 100, 50)
 num_students = st.sidebar.slider("学生数", 1, 32, 31)
 num_sessions = st.sidebar.slider("授業コマ数（10回で1単位）", 1, 50, 30)
 decay_rate = st.sidebar.slider("忘却率 λ (Ebbinghaus)", 0.05, 0.5, 0.3)
